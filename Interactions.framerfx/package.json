@@ -1,0 +1,23 @@
+{
+	"author": "Dirk Verhagen",
+	"dependencies": {
+		"@framer/framer.default": "1.106.0"
+	},
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"framer": {
+		"authorId": "65f6d7a1-7945-4f01-928b-9b305c6a83b5",
+		"displayName": "Interactions",
+		"webId": "9ezZamhUaQllpenSUFzX",
+		"id": "49863d2a-14f5-413d-8447-327338c05758"
+	},
+	"license": "MIT",
+	"main": "dist/index.js",
+	"name": "@framer/m96879pd.interactions",
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"version": "1.2.0"
+}
