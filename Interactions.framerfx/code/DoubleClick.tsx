@@ -3,9 +3,10 @@ import { useRef } from "react"
 import { Frame, addPropertyControls, ControlType, useNavigation } from "framer"
 
 export function DoubleClick(props) {
+    const { transitionTo, doubleClicktime, fill, ...rest } = props
     function useDoubleTap(
         callback: (e: MouseEvent | TouchEvent) => void,
-        timeout: number = 300 // 300 milliseconds
+        timeout: number = doubleClicktime
     ) {
         // Maintain the previous timestamp in a ref so it persists between renders
         const prevClickTimestamp = useRef(0)
@@ -32,7 +33,6 @@ export function DoubleClick(props) {
         }
     }
 
-    const { transitionTo, doubleClicktime, fill, ...rest } = props
     const navigation = useNavigation()
     const onClick = useDoubleTap(() => {
         navigation.instant(transitionTo)

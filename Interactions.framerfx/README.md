@@ -13,4 +13,4 @@ This adds as a hotspot. Simply add a target frame, a fill if you want to see the
 
 Drag and drop will enable the user to drag the content to a certain spot defined by the top,left,bottom,right coordinates. If you leave this to 0, dropping the component anywhere forwards to the target frame.
 
-Code yet to be published on github
+Code available on: https://github.com/DirkVerhagen/FramerInteractions
